@@ -1,21 +1,14 @@
-<% if user_signed_in? %>
-
-	<h1>You 're logged in, powered by Geekathon 2013</h1>
-
-<% else %>
-
 <div class="hero-unit">
 
 	<h1>Welcome to GEEKATHON 2013</h1>
 	<p>
 		Bonjour vous êtes sur la page de 
 		<%= link_to "BetterDays","http://www.google.com" %>
-		par Penrose.
+		par Olivier, Victor, Emmanuel.
 	</p>
 	<p>
-		<%= link_to "Sign Up Now :-)", new_user_registration_path, class: "btn btn btn-warning btn-large" %>
+		<%= link_to "Sign Up Now :-)","#", class: "btn btn btn-warning btn-large" %>
 	</p>
 
 </div>
 
-<% end %>
