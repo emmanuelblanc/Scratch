@@ -1,8 +1,4 @@
 == README
 
-Test Github
-Test 2
-
-Test fin Adding users
-
-yoyoyo
+This is the sample application of BetterDays.
+By Penrose.
